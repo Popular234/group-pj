@@ -117,6 +117,10 @@ function nextstep(){
    if (attack == attack && choosetool == axe){
     alert("you couldnt get close close enough to hit the figure with the axe, you died by tentacle through the chest. Ending ")
    } 
+   else if (attack == attack && choosetool == shotgun){
+    alert("you tried to aim your shotgun, you fired your shots and missed all but two. two is not enough. Ending")
+   }
+//    else if ()
 }
 
 
