@@ -39,7 +39,7 @@ function stgame(){
         alert("you chose the costume, dumb choice but okay")
         onyourway()
     }
-
+}
 
 
 function choosefood(){
@@ -49,7 +49,7 @@ function choosefood(){
     const tuna = "tuna"
 
      if (choosefood === pbj){
-        alert("you chose the pbj and you felt a little sick, suddenly you struggle to breathe and collapse ''you lived a good life'' ")
+        alert("you chose the pbj and you felt a little sick, suddenly you struggle to breathe and collapse ''you lived a good life'' Ending 1 of ")
     }
 
     else if (choosefood === tuna){
@@ -58,10 +58,13 @@ function choosefood(){
     }
 
     else{
-        alert("you just had to go for it, you collapse on the ground and proceed to start seeing the pink elephant before you ultimatly fade into darkness")
+        alert("you just had to go for it, you collapse on the ground and proceed to start seeing the pink elephant before you ultimatly fade into darkness. Ending 2 of")
     }
 
 }
+
+
+
 function onyourway(){
     let onyourway = prompt("once you start on your way out the front door you have a couple choices, you see a cellar to your left, the woods straight ahead, and a pool to your right")
 
@@ -69,7 +72,7 @@ function onyourway(){
     const right = "right"
 
     if (onyourway === left){
-        alert("you open the door of the cellar and you take a step down, there you slip and fall down the steps and crack your skull open. slow and steadty wins the race.")
+        alert("you open the door of the cellar and you take a step down, there you slip and fall down the steps and crack your skull open. slow and steadty wins the race. Ending 3 of")
 
     }
     else if (onyourway === right){
@@ -104,10 +107,16 @@ function onyourway(){
 
 
 function nextstep(){
-alert("ha")
-   
-}
+    var attack = prompt("you hear a noise through the trees and you see a sudden flash, then a faceless figure appears in front of you wearing a black suit with tentacles appearing out of it back. you feel yourself freeze, do you choose to attack and defend yourself or run and hope for your life? please type attack or run ")
     
+    var choosetool
+
+    const yes = "yes"
+    const no = "no"
+
+   if (attack == attack && choosetool == axe){
+    alert("you couldnt get close close enough to hit the figure with the axe, you died by tentacle through the chest. Ending ")
+   } 
 }
 
 
